@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.content {
+  background: #FFFFFF;
+  height: 100%;
+}
+.content .divider {
+  width: 100%;
+  height: 16rpx;
+  background: #F8F8F8;
+}
+.content .item-box {
+  padding: 0 32rpx;
+}
+.content .item-box .item {
+  border-bottom: 2rpx solid #EEEEEE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.content .item-box .item .item-title {
+  font-size: 28rpx;
+  line-height: 104rpx;
+  font-weight: 500;
+  width: 116rpx;
+  margin-right: 36rpx;
+}
+.content .item-box .item .input-box {
+  height: 104rpx;
+}
+.content .item-box .item .input-box input {
+  height: 100%;
+  line-height: 104rpx;
+}
+.content .item-box .item-address {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 2rpx solid #EEEEEE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.content .item-box .item-address .item-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.content .item-box .item-address .item-left .item-title {
+  font-size: 28rpx;
+  line-height: 104rpx;
+  font-weight: 500;
+  width: 116rpx;
+  margin-right: 36rpx;
+}
+.content .item-box .item-address .item-left .address-info {
+  width: 400rpx;
+  font-size: 28rpx;
+  line-height: 104rpx;
+  color: #E5E5E5;
+}
+.content .item-box .item-address .item-left .active {
+  color: #222222;
+  line-height: 40rpx;
+  padding: 14rpx 0;
+}
+.content .item-box .item-address .item-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.content .item-box .item-address .item-right .img-box {
+  width: 32rpx;
+  height: 32rpx;
+  margin-top: 36rpx;
+}
+.content .item-box .item-address .item-right .img-box image {
+  width: 100%;
+  height: 100%;
+}
+.content .item-box .item-address .item-right .item-text {
+  display: inline-block;
+  height: 100%;
+  font-size: 28rpx;
+  color: #999999;
+  line-height: 104rpx;
+  margin-left: 4rpx;
+}
+.content .button-box {
+  margin: 80rpx 32rpx 0;
+}
+.content .button-box .button {
+  width: 100%;
+  height: 88rpx;
+  background: #CECECE;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 88rpx;
+  border-radius: 8rpx;
+  border-radius: 0;
+  padding: 0;
+}
+.content .button-box .button::after {
+  border: none;
+}
+.content .button-box .active {
+  background: #ED494C;
+}
+

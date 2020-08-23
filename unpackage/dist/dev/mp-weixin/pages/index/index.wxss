@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.s-positioning {
+  position: absolute;
+  top: 30rpx;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 72rpx;
+}
+.search {
+  background: #F4F4F4;
+  border-radius: 36rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+}
+.search-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.search-icon image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 20rpx;
+}
+.search-icon .search-box {
+  margin-left: 10rpx;
+  color: #BBBBBB;
+  font-size: 28rpx;
+}
+.swiper {
+  width: 100%;
+  height: 350rpx;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.menu {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-bottom: 20rpx;
+  background: #FFFFFF;
+}
+.menu .m-item {
+  width: 150rpx;
+  text-align: center;
+}
+.menu .m-item image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  opacity: .7;
+  -webkit-box-shadow: 4rpx 4rpx 20rpx rgba(250, 67, 106, 0.3);
+          box-shadow: 4rpx 4rpx 20rpx rgba(250, 67, 106, 0.3);
+  margin-top: 20rpx;
+}
+.menu .m-item .m-text {
+  font-size: 24rpx;
+}
+.ad-1 {
+  width: 750rpx;
+  height: 280rpx;
+  padding: 30rpx 32rpx 30rpx 32rpx;
+  background: #FFFFFF;
+}
+.ad-1 image {
+  height: 100%;
+  width: 686rpx;
+  border-radius: 10rpx;
+}
+.got-products {
+  width: 100%;
+  background: #FFFFFF;
+  margin-top: 16rpx;
+  padding-top: 64rpx;
+}
+.got-products .g-title {
+  font-size: 34rpx;
+}
+.got-products .g-underline {
+  height: 4rpx;
+  background: #ED494C;
+  border-radius: 4rpx;
+  width: 136rpx;
+}
+.got-list {
+  width: 100%;
+  padding-top: 1rpx;
+  background: #FFFFFF;
+  padding-bottom: 48rpx;
+}
+.got-list .g-item {
+  margin-top: 60rpx;
+  width: 100%;
+  height: 210rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.got-list .g-item image {
+  width: 210rpx;
+  height: 210rpx;
+  border-radius: 10rpx;
+}
+.got-list .g-item .g-desc {
+  margin-left: 32rpx;
+  width: 448rpx;
+  height: 210rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.got-list .g-item .g-desc .g-word {
+  height: 50%;
+  color: #222222;
+  font-size: 24rpx;
+  width: 448rpx;
+}
+.g-price {
+  font-size: 28rpx;
+  color: red;
+}
+.g-price text {
+  color: #909399;
+  font-size: 28rpx;
+  margin-left: 30rpx;
+}
+/* 秒杀专区 */
+.m-t {
+  margin-top: 16rpx;
+}
+.seckill-section {
+  padding: 4rpx 30rpx 24rpx;
+  background: #fff;
+}
+.seckill-section .s-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 92rpx;
+  line-height: 1;
+}
+.seckill-section .s-header .s-img {
+  width: 140rpx;
+  height: 30rpx;
+}
+.seckill-section .s-header .tip {
+  font-size: 28rpx;
+  color: #909399;
+  margin: 0 20rpx 0 40rpx;
+}
+.seckill-section .s-header .timer {
+  display: inline-block;
+  width: 40rpx;
+  height: 36rpx;
+  text-align: center;
+  line-height: 36rpx;
+  margin-right: 14rpx;
+  font-size: 26rpx;
+  color: #fff;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.seckill-section .s-header .icon-you {
+  font-size: 32rpx;
+  color: #909399;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+.seckill-section .floor-list {
+  white-space: nowrap;
+}
+.seckill-section .scoll-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.seckill-section .floor-item {
+  width: 150rpx;
+  margin-right: 20rpx;
+  font-size: 26rpx;
+  color: #303133;
+  line-height: 1.8;
+}
+.seckill-section .floor-item image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 6rpx;
+}
+.seckill-section .floor-item .clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.seckill-section .floor-item .price {
+  color: #007aff;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择服务类型",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

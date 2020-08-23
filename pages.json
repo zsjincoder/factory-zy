@@ -1,0 +1,204 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "易启联盟工厂购"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText":"我的订单"
+			}
+		}, {
+			"path": "pages/shopCart/shopCart",
+			"style": {
+				"navigationBarTitleText":"购物车"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText":"搜索"
+			}
+		}, {
+			"path": "pages/index/searchDetail",
+			"style": {
+				"navigationBarTitleText":"搜索详情"
+			}
+		}, {
+			"path": "pages/mine/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		}, {
+			"path": "pages/mine/income/income",
+			"style": {
+				"navigationBarTitleText": "我的收益"
+			}
+		}, {
+			"path": "pages/mine/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "pages/mine/address/addAddress",
+			"style": {
+				"navigationBarTitleText": "新增收货地址"
+			}
+		}, {
+			"path": "pages/mine/address/editAddress",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址"
+			}
+		}, {
+			"path": "pages/mine/bindPhone/bindPhone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		}, {
+			"path": "pages/index/storeHome/storeHome",
+			"style": {}
+		}, {
+			"path": "pages/index/shopDetail/shopDetail",
+			"style": {
+				"navigationBarTitleText":"商品详情"
+			}
+		}, {
+			"path": "pages/mine/chengPhone/chengPhone",
+			"style": {
+				"navigationBarTitleText": "更换手机号"
+			}
+		}, {
+			"path": "pages/mine/chengPhone/verifyPhone",
+			"style": {
+				"navigationBarTitleText": "验证手机号"
+			}
+		}, {
+			"path": "pages/mine/chengPhone/changePhone",
+			"style": {
+				"navigationBarTitleText": "更换手机号"
+			}
+		}, {
+			"path": "pages/mine/openShop/openShop",
+			"style": {
+				"navigationBarTitleText": "我要开店"
+			}
+		}, {
+			"path": "pages/order/refundReturn",
+			"style": {
+				"navigationBarTitleText":"选择服务类型"
+			}
+		}, {
+			"path": "pages/order/editReturn",
+			"style": {
+				"navigationBarTitleText":"填写退货信息"
+			}
+		}, {
+			"path": "pages/index/confirmOrder/confirmOrder",
+			"style": {
+				"navigationBarTitleText":"订单详情"
+			}
+		}, {
+			"path": "pages/index/paySuccess/paySuccess",
+			"style": {
+				"navigationBarTitleText":"支付成功"
+			}
+		}
+        ,{
+            "path" : "pages/mine/income/withdrawal",
+            "style" : {
+				"navigationBarTitleText":"提现"
+			}
+        }
+        ,{
+            "path" : "pages/mine/income/helpCenter",
+            "style" : {
+				"navigationBarTitleText":"帮助中心"
+			}
+        }
+        ,{
+            "path" : "pages/mine/income/withdrawalRecord",
+            "style" : {
+				"navigationBarTitleText":"提现记录"
+			}
+        }
+        ,{
+            "path" : "pages/mine/openShop/shopRule",
+            "style" : {
+				"navigationBarTitleText":"我是商家"
+			}
+        }
+        ,{
+            "path" : "pages/mine/openShop/factoryRule",
+            "style" : {
+				"navigationBarTitleText":"我是厂家"
+			}
+        }
+        ,{
+            "path" : "pages/index/storeHome/storeSearch",
+            "style" : {
+				"navigationBarTitleText":"店内搜索"
+			}
+        }
+        ,{
+            "path" : "pages/index/storeHome/storeSearchDetail",
+            "style" : {
+				"navigationBarTitleText":"搜索详情"
+			}
+        }
+        ,{
+            "path" : "pages/mine/userManual/userManual",
+            "style" : {
+				"navigationBarTitleText":"使用手册"
+			}
+        }
+        ,{
+            "path" : "pages/mine/userManual/userManualDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/payFail/payFail",
+            "style" : {
+				"navigationBarTitleText":"支付失败"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#CECECE",
+		"selectedColor": "#ED4A4C",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/img/tabbar/index.png",
+			"selectedIconPath": "static/img/tabbar/index-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/order/order",
+			"iconPath": "static/img/tabbar/order.png",
+			"selectedIconPath": "static/img/tabbar/order-active.png",
+			"text": "订单"
+		}, {
+			"pagePath": "pages/shopCart/shopCart",
+			"iconPath": "static/img/tabbar/shopCar.png",
+			"selectedIconPath": "static/img/tabbar/shopCar-active.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/img/tabbar/mine.png",
+			"selectedIconPath": "static/img/tabbar/mine-active.png",
+			"text": "个人中心"
+		}]
+	}
+}

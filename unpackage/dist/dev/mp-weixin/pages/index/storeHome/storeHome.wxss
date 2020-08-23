@@ -1,0 +1,320 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.s-head {
+  width: 100%;
+  height: 314rpx;
+  position: relative;
+}
+.s-head .s-info {
+  position: absolute;
+  top: 48rpx;
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  z-index: 2;
+}
+.s-head .s-info .s-text {
+  margin-left: 16rpx;
+  max-width: 320rpx;
+  height: 100%;
+}
+.s-head .s-info .s-text .s-text1 {
+  width: 100%;
+  font-size: 32rpx;
+  color: #FFFFFFFF;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.s-head .s-info .s-text .s-text2 {
+  width: 100%;
+  font-size: 24rpx;
+  color: #FFFFFFFF;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.s-head .s-info image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-left: 24rpx;
+}
+.s-head .s-info .s-select {
+  width: 24rpx;
+  height: 24rpx;
+  margin-top: 10rpx;
+}
+.s-head .s-info .s-select image {
+  width: 100%;
+  height: 100%;
+}
+.s-head .p-share {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  top: 40rpx;
+  right: 0;
+  height: 60rpx;
+  width: 140rpx;
+  background: #eeeeee;
+  border-radius: 36rpx 0px 0px 36rpx;
+  padding: 0;
+  z-index: 100;
+}
+.s-head .p-share .p-s-img {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 24rpx;
+}
+.s-head .p-share .p-s-text {
+  font-size: 24rpx;
+  color: #999999;
+  margin-left: 10rpx;
+}
+.s-head .s-search {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 32rpx;
+  width: 100%;
+  height: 138rpx;
+  border-radius: 24rpx 24rpx 0px 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #FFFFFF;
+  z-index: 2;
+}
+.s-head .s-search .search-box {
+  margin-top: 48rpx;
+  width: 100%;
+  height: 78rpx;
+  position: relative;
+  border-radius: 36rpx;
+  background: #F4F4F4;
+}
+.s-head .s-search .search-box .search-icon {
+  position: absolute;
+  width: 32rpx;
+  height: 32rpx;
+  top: 20rpx;
+  left: 20rpx;
+}
+.s-head .s-search .search-box .search-icon image {
+  width: 100%;
+  height: 100%;
+}
+.s-head .s-search .search-box .search-input {
+  width: 100%;
+  height: 100%;
+  line-height: 78rpx;
+  border: none;
+  outline: none;
+  margin-left: 62rpx;
+  font-size: 28rpx;
+  color: #BBBBBB;
+}
+.s-head .s-head-cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.69);
+  z-index: 1;
+}
+.s-head image {
+  width: 100%;
+  height: 100%;
+}
+.nav .cu-item {
+  font-size: 32rpx;
+}
+.nav .cu-item .tab-text {
+  height: 86rpx;
+}
+.nav .cu-item .tab-text1 {
+  height: 86rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.nav .cu-item .tab-text1 .t-short {
+  width: 30rpx;
+  height: 100%;
+  position: relative;
+}
+.nav .cu-item .tab-text1 .t-short.t-short:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 42rpx;
+  left: 8rpx;
+  border-right: solid 8rpx transparent;
+  border-left: solid 8rpx transparent;
+  border-bottom: solid 8rpx #999999;
+}
+.nav .cu-item .tab-text1 .t-short.top::before {
+  border-bottom: solid 8rpx #ED494C;
+}
+.nav .cu-item .tab-text1 .t-short.t-short:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 26rpx;
+  left: 8rpx;
+  border-top: solid 8rpx #999999;
+  border-right: solid 8rpx transparent;
+  border-left: solid 8rpx transparent;
+}
+.nav .cu-item .tab-text1 .t-short.bottom::after {
+  border-top: solid 8rpx #ED494C;
+}
+.nav .cu-item .tab-bottom-line {
+  width: 0%;
+  height: 4rpx;
+  background-color: #0081FF;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.nav .cu-item .tab-bottom-line-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.nav .cu-item.current {
+  margin-bottom: 20rpx;
+}
+.nav .cu-item.current .tab-bottom-line {
+  width: 100%;
+}
+.list-box {
+  background: #FFFFFF;
+  min-height: 640rpx;
+}
+.list-box .s-list {
+  margin-top: 4rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 32rpx 32rpx 0 28rpx;
+  padding-bottom: 48rpx;
+}
+.list-box .s-list .s-list-itme {
+  height: 516rpx;
+  width: 334rpx;
+  margin-left: 9rpx;
+  border-radius: 8rpx;
+  border: 2rpx solid #eeeeee;
+  margin-bottom: 16rpx;
+}
+.list-box .s-list .s-list-itme .s-desc {
+  margin-top: 16rpx;
+  width: 100%;
+  padding: 0 16rpx;
+  overflow: hidden;
+  word-break: break-all;
+  /* break-all(允许在单词内换行。) */
+  text-overflow: ellipsis;
+  /* 超出部分省略号 */
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+}
+.list-box .s-list .s-list-itme .s-data {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 16rpx;
+  height: 54rpx;
+  margin-top: 10rpx;
+}
+.list-box .s-list .s-list-itme .s-data .s-price {
+  font-size: 32rpx;
+  font-weight: 400;
+  color: #ed494c;
+  line-height: 54rpx;
+}
+.list-box .s-list .s-list-itme .s-data .s-sales {
+  font-size: 22rpx;
+  color: #999999;
+  line-height: 54rpx;
+}
+.list-box .s-list .s-list-itme image {
+  width: 334rpx;
+  height: 334rpx;
+  border-radius: 8rpx 8rpx 0rpx 0rpx;
+}
+.shop-car {
+  position: fixed;
+  bottom: 40rpx;
+  right: 16rpx;
+}
+.shop-car image {
+  width: 135rpx;
+  height: 135rpx;
+}
+.shop-car .shop-num {
+  position: absolute;
+  top: 20rpx;
+  right: 30rpx;
+  color: #FFFFFF;
+  background: red;
+  height: 32rpx;
+  width: 32rpx;
+  font-size: 18rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32rpx;
+}
+

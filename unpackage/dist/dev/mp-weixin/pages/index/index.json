@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "易启联盟工厂购",
+  "usingComponents": {
+    "u-li-load-more": "/components/uLi-load-more/uLi-load-more"
+  }
+}

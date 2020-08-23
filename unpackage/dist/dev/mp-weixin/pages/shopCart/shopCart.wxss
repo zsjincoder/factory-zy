@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.pub-padd {
+  padding: 0 32rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+page {
+  background: #FFFFFF;
+}
+.pub-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.s-fixed {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.select-all {
+  width: 100%;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  height: 106rpx;
+  font-size: 30rpx;
+  position: relative;
+}
+.select-all.select-all:after {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  height: 0;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  border-bottom: 1px solid #E4E7ED;
+  bottom: 0;
+}
+.select-all .s-all {
+  color: #222222;
+}
+.select-all .s-edeit {
+  color: #ed494c;
+}
+.select-all .s-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 32rpx;
+}
+.select-all .s-select {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 20rpx;
+}
+.stroe-list {
+  width: 100%;
+  margin-bottom: 16rpx;
+}
+.product-list {
+  width: 100%;
+  background: #FFFFFF;
+}
+.product-list .product {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 30rpx;
+  position: relative;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.product-list .product .s-desc {
+  font-size: 28rpx;
+  margin-left: 32rpx;
+  color: #222222;
+}
+.product-list .product .model-box {
+  width: 614rpx;
+  height: 148rpx;
+  background: #fafafa;
+  padding: 0 32rpx;
+  font-size: 24rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.product-list .product .model-box .m-desc {
+  color: #999999;
+}
+.product-list .product .model-box .m-price {
+  margin-top: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.product-list .product .model-box .m-price .m-through {
+  text-decoration: line-through;
+  color: #CCCCCC;
+}
+.product-list .product .model-box .m-price text {
+  color: #ED494C;
+}
+.product-list .product .s-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 32rpx;
+}
+.product-list .product .s-image1 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 8rpx;
+}
+.product-list .product .s-select {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 20rpx;
+}
+.product-list .total {
+  margin-top: 20rpx;
+  width: 100%;
+  padding: 0 32rpx;
+  font-size: 24rpx;
+  color: #222222;
+}
+.product-list .total .t-desc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  position: relative;
+  padding: 32rpx 0;
+}
+.product-list .total .t-desc text {
+  color: #ED494C;
+  margin-left: 20rpx;
+}
+.product-list .total .t-desc.t-desc:after {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  height: 0;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  border-bottom: 1px solid #E4E7ED;
+  top: 0;
+}
+.settlement {
+  z-index: 3;
+  width: 100%;
+  height: 108rpx;
+  border-top: 2rpx solid #E4E7ED;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.settlement .s-desc {
+  font-size: 28rpx;
+  color: #222222;
+}
+.settlement .s-desc text {
+  color: #ed494c;
+}
+.settlement .s-sum {
+  color: #999999;
+  font-size: 22rpx;
+}
+.settlement .s-button {
+  width: 214rpx;
+  height: 100%;
+  background: #CECECE;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 105rpx;
+}
+.remaks-box {
+  width: 568rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+}
+.remaks-box .title {
+  height: 168rpx;
+  line-height: 168rpx;
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #222222;
+  border-bottom: 2rpx solid #EEEEEE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.remaks-box .btn-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 106rpx;
+}
+.remaks-box .btn-group .cancel-btn,
+.remaks-box .btn-group .define-btn {
+  width: 50%;
+  line-height: 106rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+.remaks-box .btn-group .cancel-btn {
+  color: #999999;
+}
+.remaks-box .btn-group .define-btn {
+  border-left: 2rpx solid #EEEEEE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ED494C;
+}
+

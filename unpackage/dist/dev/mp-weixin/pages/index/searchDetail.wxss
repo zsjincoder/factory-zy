@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.content {
+  padding: 32rpx 32rpx;
+  background: #FFFFFF;
+}
+.content .search-box {
+  width: 100%;
+  height: 78rpx;
+  position: relative;
+  border-radius: 36rpx;
+  background: #F4F4F4;
+  z-index: 100;
+}
+.content .search-box .search-icon {
+  position: absolute;
+  width: 32rpx;
+  height: 32rpx;
+  top: 20rpx;
+  left: 20rpx;
+}
+.content .search-box .search-icon image {
+  width: 100%;
+  height: 100%;
+}
+.content .search-box .search-input {
+  width: 100%;
+  height: 100%;
+  line-height: 78rpx;
+  border: none;
+  outline: none;
+  margin-left: 62rpx;
+  font-size: 28rpx;
+}
+.content .product-list {
+  margin-bottom: 20rpx;
+}
+.content .product-list .product-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.content .product-list .product-box .product-left,
+.content .product-list .product-box .product-right {
+  width: 334rpx;
+}
+.content .product-list .product-box .product-left .product-item,
+.content .product-list .product-box .product-right .product-item {
+  border-radius: 8rpx;
+  border: 2rpx solid #EEEEEE;
+  margin-top: 16rpx;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+.content .product-list .product-box .product-left .product-item .product-image,
+.content .product-list .product-box .product-right .product-item .product-image {
+  width: 334rpx;
+  height: 334rpx;
+}
+.content .product-list .product-box .product-left .product-item .product-image image,
+.content .product-list .product-box .product-right .product-item .product-image image {
+  width: 100%;
+  height: 100%;
+}
+.content .product-list .product-box .product-left .product-item .product-script-box,
+.content .product-list .product-box .product-right .product-item .product-script-box {
+  margin: 16rpx;
+}
+.content .product-list .product-box .product-left .product-item .product-script-box .product-title,
+.content .product-list .product-box .product-right .product-item .product-script-box .product-title {
+  font-size: 29rpx;
+  line-height: 42rpx;
+  color: #222222;
+  display: -webkit-box;
+  /*将对象转为弹性盒模型展示*/
+  -webkit-box-orient: vertical;
+  /*设置弹性盒模型子元素的排列方式*/
+  -webkit-line-clamp: 2;
+  /*限制文本行数*/
+  overflow: hidden;
+  /*超出隐藏*/
+}
+.content .product-list .product-box .product-left .product-item .product-script-box .product-script,
+.content .product-list .product-box .product-right .product-item .product-script-box .product-script {
+  margin-top: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  height: 50rpx;
+}
+.content .product-list .product-box .product-left .product-item .product-script-box .product-script .product-price,
+.content .product-list .product-box .product-right .product-item .product-script-box .product-script .product-price {
+  color: #ED494C;
+  font-size: 24rpx;
+  line-height: 50rpx;
+}
+.content .product-list .product-box .product-left .product-item .product-script-box .product-script .product-price .product_price,
+.content .product-list .product-box .product-right .product-item .product-script-box .product-script .product-price .product_price {
+  font-size: 36rpx;
+}
+.content .product-list .product-box .product-left .product-item .product-script-box .product-script .product-num,
+.content .product-list .product-box .product-right .product-item .product-script-box .product-script .product-num {
+  font-size: 22rpx;
+  color: #999999;
+  line-height: 50rpx;
+}
+

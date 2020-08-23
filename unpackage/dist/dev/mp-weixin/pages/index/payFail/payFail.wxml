@@ -1,0 +1,1 @@
+<view class="content"><view class="success-icon"><image src="../../../static/img/index/pay_fail.png" mode></image></view><text class="tit">支付失败</text><view class="btn-group"><navigator class="mix-btn" url="/pages/order/order" open-type="switchTab">查看订单</navigator><navigator class="mix-btn hollow" url="/pages/index/index" open-type="switchTab">返回首页</navigator></view></view>

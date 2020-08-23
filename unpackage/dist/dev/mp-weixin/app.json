@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/shopCart/shopCart",
+    "pages/mine/mine",
+    "pages/index/search",
+    "pages/index/searchDetail",
+    "pages/mine/wallet/wallet",
+    "pages/mine/income/income",
+    "pages/mine/address/address",
+    "pages/mine/address/addAddress",
+    "pages/mine/address/editAddress",
+    "pages/mine/bindPhone/bindPhone",
+    "pages/index/storeHome/storeHome",
+    "pages/index/shopDetail/shopDetail",
+    "pages/mine/chengPhone/chengPhone",
+    "pages/mine/chengPhone/verifyPhone",
+    "pages/mine/chengPhone/changePhone",
+    "pages/mine/openShop/openShop",
+    "pages/order/refundReturn",
+    "pages/order/editReturn",
+    "pages/index/confirmOrder/confirmOrder",
+    "pages/index/paySuccess/paySuccess",
+    "pages/mine/income/withdrawal",
+    "pages/mine/income/helpCenter",
+    "pages/mine/income/withdrawalRecord",
+    "pages/mine/openShop/shopRule",
+    "pages/mine/openShop/factoryRule",
+    "pages/index/storeHome/storeSearch",
+    "pages/index/storeHome/storeSearchDetail",
+    "pages/mine/userManual/userManual",
+    "pages/mine/userManual/userManualDetail",
+    "pages/index/payFail/payFail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#CECECE",
+    "selectedColor": "#ED4A4C",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tabbar/index.png",
+        "selectedIconPath": "static/img/tabbar/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/img/tabbar/order.png",
+        "selectedIconPath": "static/img/tabbar/order-active.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/shopCart/shopCart",
+        "iconPath": "static/img/tabbar/shopCar.png",
+        "selectedIconPath": "static/img/tabbar/shopCar-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/img/tabbar/mine.png",
+        "selectedIconPath": "static/img/tabbar/mine-active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取用户当前定位"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap70.json"
+}
